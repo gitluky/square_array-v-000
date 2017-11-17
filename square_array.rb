@@ -7,7 +7,7 @@ end
 
 def square_array_collect(array)
   # your code here
-  array.collect {|element| new_array << element**2}
+  array.collect {|element| element**2}
 end
 
 array = [1,2,3]
